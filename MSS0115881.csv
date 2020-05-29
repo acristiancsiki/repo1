@@ -1,0 +1,50 @@
+"_time","Darktrace Detection",score,host,breachUrl,"Detection Description","Triggered Components","Trigger Values"
+"2020-03-03T12:19:28.000-0500","Anomalous Connection::Multiple Connections to New External TCP Port","77.5",tamsplunkhf001,"https://darktrace.spencerstuart.com/#modelbreach/769285","A device has begun communicating on a TCP port it has never used before.\n\nAction: Review the connection including the external endpoint to see if the new behaviour is expected.","Same port
+Rare external endpoint
+Application protocol
+Direction
+Protocol
+Age of source
+Destination port
+Destination port
+Destination port
+Destination IP
+Destination port
+New connection
+Rare external endpoint
+Application protocol
+Destination port
+Direction
+Protocol
+Individual size down
+Individual size up
+Age of source
+Destination port
+Destination port
+Destination port
+Destination IP
+Destination port","true
+100
+DPI:SSL
+out
+6
+24628328
+52311
+52311
+52311
+34.249.4.204
+52311
+true
+100
+DPI:SSL
+52311
+out
+6
+11598
+3282
+24628122
+52311
+52311
+52311
+34.249.4.204
+52311"
